@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "meteor-plus",
+  "version": "${version}",
+  "name": "Meteor Plus",
+  "description": "The strongest Meteor Addon.",
+  "authors": [
+    "seasnail8169",
+    "MineGame159",
+    "supakeks",
+    "tyrannus",
+    "GhostTypes",
+    "bowlz",
+    "Gilded"
+  ],
+  "icon": "assets/meteor-plus/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "me.seasnail.meteorplus.MeteorPlus"
+    ]
+  },
+  "mixins": [
+    "meteor-plus.mixins.json"
+  ],
+  "depends": {
+    "java": ">=16",
+    "minecraft": ">=1.17",
+    "meteor-client": ">0.4.3"
+  }
+}

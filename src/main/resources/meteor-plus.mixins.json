@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "me.seasnail.meteorplus.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "ClientConnectionMixin",
+    "CrashReportMixin",
+    "CustomPayloadS2CPacketAccessor",
+    "EntityMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
